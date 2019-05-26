@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Task 4</title>
+        <style type="text/css">
+            body{
+                box-sizing: border-box;
+            }
+            .dashboard{
+                background-color:azure;
+                border: silver 2px solid;
+                width: 39rem;
+                height: 44rem;
+                margin: auto 2rem 2rem 2rem;
+                padding: 2rem;                
+            }
+            .frame{
+                text-align: center;
+                padding: 1rem;
+                display: inline-block;
+            }
+            .frame, .elem{
+                float: left;
+            }
+            .ceil{
+                width: 4rem;
+            }
+            .elem{
+                width: 4rem;
+                height: 4rem;
+                border: silver 1px solid;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="container"><h2>Задание № 4</h2></header>
+        <main>
+            <div class="container dashboard">
+                <div class="row rowgr">
+                    <div class="frame">&nbsp;</div>
+                    <div class="frame ceil">A</div>
+                    <div class="frame ceil">B</div>
+                    <div class="frame ceil">C</div>
+                    <div class="frame ceil">D</div>
+                    <div class="frame ceil">E</div>
+                    <div class="frame ceil">F</div>
+                    <div class="frame ceil">G</div>
+                    <div class="frame ceil">H</div>
+                    <div class="frame">&nbsp;</div>
+                </div>
+                <div class="row rowgr">
+                    <div class="frame">8</div>
+                    <div class="elem" id="A8"></div>
+                    <div class="elem" id="B8"></div>
+                    <div class="elem" id="C8"></div>
+                    <div class="elem" id="D8"></div>
+                    <div class="elem" id="E8"></div>
+                    <div class="elem" id="F8"></div>
+                    <div class="elem" id="G8"></div>
+                    <div class="elem" id="H8"></div>
+                    <div class="frame">8</div>
+                </div>
+                <div class="row rowgr">
+                    <div class="frame">7</div>
+                    <div class="elem" id="A7"></div>
+                    <div class="elem" id="B7"></div>
+                    <div class="elem" id="C7"></div>
+                    <div class="elem" id="D7"></div>
+                    <div class="elem" id="E7"></div>
+                    <div class="elem" id="F7"></div>
+                    <div class="elem" id="G7"></div>
+                    <div class="elem" id="H7"></div>
+                    <div class="frame">7</div>
+                </div>
+                <div class="row rowgr">
+                    <div class="frame">6</div>
+                    <div class="elem" id="A6"></div>
+                    <div class="elem" id="B6"></div>
+                    <div class="elem" id="C6"></div>
+                    <div class="elem" id="D6"></div>
+                    <div class="elem" id="E6"></div>
+                    <div class="elem" id="F6"></div>
+                    <div class="elem" id="G6"></div>
+                    <div class="elem" id="H6"></div>
+                    <div class="frame">6</div>
+                </div>
+                <div class="row rowgr">
+                    <div class="frame">5</div>
+                    <div class="elem" id="A5"></div>
+                    <div class="elem" id="B5"></div>
+                    <div class="elem" id="C5"></div>
+                    <div class="elem" id="D5"></div>
+                    <div class="elem" id="E5"></div>
+                    <div class="elem" id="F5"></div>
+                    <div class="elem" id="G5"></div>
+                    <div class="elem" id="H5"></div>
+                    <div class="frame">5</div>
+                </div>
+                <div class="row rowgr">
+                    <div class="frame">4</div>
+                    <div class="elem" id="A4"></div>
+                    <div class="elem" id="B4"></div>
+                    <div class="elem" id="C4"></div>
+                    <div class="elem" id="D4"></div>
+                    <div class="elem" id="E4"></div>
+                    <div class="elem" id="F4"></div>
+                    <div class="elem" id="G4"></div>
+                    <div class="elem" id="H4"></div>
+                    <div class="frame">4</div>
+                </div>
+                <div class="row rowgr">
+                    <div class="frame">3</div>
+                    <div class="elem" id="A3"></div>
+                    <div class="elem" id="B3"></div>
+                    <div class="elem" id="C3"></div>
+                    <div class="elem" id="D3"></div>
+                    <div class="elem" id="E3"></div>
+                    <div class="elem" id="F3"></div>
+                    <div class="elem" id="G3"></div>
+                    <div class="elem" id="H3"></div>
+                    <div class="frame">3</div>
+                </div>
+                <div class="row rowgr">
+                    <div class="frame">2</div>
+                    <div class="elem" id="A2"></div>
+                    <div class="elem" id="B2"></div>
+                    <div class="elem" id="C2"></div>
+                    <div class="elem" id="D2"></div>
+                    <div class="elem" id="E2"></div>
+                    <div class="elem" id="F2"></div>
+                    <div class="elem" id="G2"></div>
+                    <div class="elem" id="H2"></div>
+                    <div class="frame">2</div>
+                </div>
+                <div class="row rowgr">
+                    <div class="frame">1</div>
+                    <div class="elem" id="A1"></div>
+                    <div class="elem" id="B1"></div>
+                    <div class="elem" id="C1"></div>
+                    <div class="elem" id="D1"></div>
+                    <div class="elem" id="E1"></div>
+                    <div class="elem" id="F1"></div>
+                    <div class="elem" id="G1"></div>
+                    <div class="elem" id="H1"></div>
+                    <div class="frame">1</div>
+                </div>
+                <div class="row rowgr">
+                    <div class="frame">&nbsp;</div>
+                    <div class="frame ceil">A</div>
+                    <div class="frame ceil">B</div>
+                    <div class="frame ceil">C</div>
+                    <div class="frame ceil">D</div>
+                    <div class="frame ceil">E</div>
+                    <div class="frame ceil">F</div>
+                    <div class="frame ceil">G</div>
+                    <div class="frame ceil">H</div>
+                    <div class="frame">&nbsp;</div>
+                </div>
+            </div>
+        </main>
+        <footer class="container">
+            <div><span>&copy; 2019</span></div>
+            <noscript>
+                <p>Для корректной работы данной страницы включите поддержку скриптов.</p>
+            </noscript>
+            <script>            
+                var paint = function(){
+                    var ceils = document.querySelectorAll("div.rowgr > div.elem");                    
+                    for(var idx = 0; idx < ceils.length; idx++){                        
+                        switch(idx){
+                            case 0:
+                            case 2:
+                            case 4:
+                            case 6:
+                            case 9:
+                            case 11:
+                            case 13:
+                            case 15:
+                            case 16:
+                            case 18:
+                            case 20:
+                            case 22:
+                            case 25:
+                            case 27:
+                            case 29:
+                            case 31:
+                            case 32:
+                            case 34:
+                            case 36:
+                            case 38:
+                            case 41:
+                            case 43:
+                            case 45:
+                            case 47:
+                            case 48:
+                            case 50:
+                            case 52:
+                            case 54:
+                            case 57:
+                            case 59:
+                            case 61:
+                            case 63:
+                                ceils[idx].style.backgroundColor = "#FFF";
+                                break;
+                            default:
+                                ceils[idx].style.backgroundColor = "#000";
+                                break;
+                        };                        
+                    }
+                };
+                paint();
+            </script>
+            <script src="task4.js"></script>
+        </footer>
+    </body>
+</html>
