@@ -10,7 +10,7 @@
         <style type="text/css">
             body{
                 box-sizing: border-box;
-            }
+            }            
             .dashboard{
                 background-color:azure;
                 border: silver 2px solid;
@@ -36,6 +36,7 @@
                 border: silver 1px solid;
             }
         </style>
+        <script src="task4.js"></script>
     </head>
     <body>
         <header class="container"><h2>Задание № 4</h2></header>
@@ -167,55 +168,7 @@
             <div><span>&copy; 2019</span></div>
             <noscript>
                 <p>Для корректной работы данной страницы включите поддержку скриптов.</p>
-            </noscript>
-            <script>            
-                var paint = function(){
-                    var ceils = document.querySelectorAll("div.rowgr > div.elem");                    
-                    for(var idx = 0; idx < ceils.length; idx++){                        
-                        switch(idx){
-                            case 0:
-                            case 2:
-                            case 4:
-                            case 6:
-                            case 9:
-                            case 11:
-                            case 13:
-                            case 15:
-                            case 16:
-                            case 18:
-                            case 20:
-                            case 22:
-                            case 25:
-                            case 27:
-                            case 29:
-                            case 31:
-                            case 32:
-                            case 34:
-                            case 36:
-                            case 38:
-                            case 41:
-                            case 43:
-                            case 45:
-                            case 47:
-                            case 48:
-                            case 50:
-                            case 52:
-                            case 54:
-                            case 57:
-                            case 59:
-                            case 61:
-                            case 63:
-                                ceils[idx].style.backgroundColor = "#FFF";
-                                break;
-                            default:
-                                ceils[idx].style.backgroundColor = "#000";
-                                break;
-                        };                        
-                    }
-                };
-                paint();
-            </script>
-            <script src="task4.js"></script>
+            </noscript>            
         </footer>
     </body>
 </html>
